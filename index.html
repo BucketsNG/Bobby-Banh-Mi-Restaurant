@@ -1,0 +1,424 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Authentic Vietnamese Banh Mi and drinks in Coquitlam. Fresh ingredients, traditional flavours, and modern design.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Banh Mi - Authentic Vietnamese Sandwiches</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarina&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+            <div class="container header-container">
+                <div class="logo">
+                    <a href="#" aria-label="BBM - Go to top">
+                    <img src="images/BBM logo-1.png" alt="BBM logo-1">
+                    <h1>BBM</h1>
+                    </a>
+</div>
+            <nav>
+                <ul>
+                    <li><a href="#banh-mi-menu">Banh Mi</a></li>
+                    <li><a href="#drinks-menu">Drinks</a></li>
+                    <li><a href="#about">Our Story</a></li>
+                    <li><a href="#contact">Locations</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count">0</span>
+        </div>
+    </header>
+<section class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="videos/hero-video.mp4" type="video/mp4">
+        </video>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <h2 class="reveal">Craveable Crunch & Authentic Taste</h2>
+        <p class="reveal">Experience the best Banh Mi in town, made fresh daily.</p>
+        <a href="#banh-mi-menu" class="btn btn-primary">View Menu</a>
+    </div>
+</section>
+
+   <main>
+        <!-- Banh Mi Menu Section -->
+        <section id="banh-mi-menu" class="menu-section">
+            <div class="container">
+                <h2 class="title-animate">Our Banh Mi Selection</h2>
+                <div class="menu-grid">
+                    <!-- Item 1: Classic Pork -->
+                    <article class="product-card reveal" data-category="banh-mi">
+                        <div class="img-container"> 
+                        <img src="images/banhmi-classic-pork.jpg" alt="Bánh Mì Thịt Nguội (Classic Pork)" loading="lazy">
+                        <div class="steam">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </div>
+                        </div>
+                        <h3>Classic Pork (Thit Heo)</h3>
+                        <p class="description">Assorted Vietnamese cold cuts, house-made pâté, mayo, pickled carrots & daikon, cilantro, cucumber, jalapeño.</p>
+                        <p class="price">$9.50</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Item 2: Lemongrass Chicken -->
+                    <article class="product-card reveal" data-category="banh-mi">
+                        <div class="img-container">
+                        <img src="images/banhmi-lemongrass-chicken.jpg" alt="Lemongrass Chicken Banh Mi (Ga Nuong)">
+                        <div class="steam">
+                        <span></span>
+                        <span></span>
+                        <span></span>   
+                        </div>
+                        </div>
+                        <h3>Lemongrass Chicken (Ga Nuong)</h3>
+                        <p class="description">Grilled chicken marinated in fragrant lemongrass, mayo, pickled carrots & daikon, cilantro, cucumber, jalapeño.</p>
+                        <p class="price">$10.00</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Item 3: Tofu Delight -->
+                    <article class="product-card reveal" data-category="banh-mi">
+                        <div class="img-container"> 
+                        <img src="images/banhmi-tofu-delight.jpg" alt="Tofu Delight Banh Mi (Chay)">
+                        <div class="steam">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </div>
+                        </div>
+                        <h3>Tofu Delight (Chay)</h3>
+                        <p class="description">Crispy fried tofu, vegan mayo, soy dressing, pickled carrots & daikon, cilantro, cucumber, jalapeño.</p>
+                        <p class="price">$9.00</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Item 4: Grilled Pork -->
+                    <article class="product-card reveal" data-category="banh-mi">
+                        <div class="img-container"> 
+                        <img src="images/banhmi-grilled-pork.jpg" alt="Grilled Pork Banh Mi (Thit Nuong)">
+                        <div class="steam">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </div>
+                        </div>
+                        <h3>Grilled Pork (Thit Nuong)</h3>
+                        <p class="description">Char-grilled marinated pork slices, mayo, pickled carrots & daikon, cilantro, cucumber, jalapeño.</p>
+                        <p class="price">$10.50</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Item 5: Meatball -->
+                    <article class="product-card reveal" data-category="banh-mi">
+                        <div class="img-container"> 
+                        <img src="images/banhmi-meatball.jpg" alt="Meatball Banh Mi (Xiu Mai)">
+                        <div class="steam">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </div>
+                        </div>
+                        <h3>Meatball (Xiu Mai)</h3>
+                        <p class="description">Savory Vietnamese pork meatballs simmered in tomato sauce, mayo, pickled carrots & daikon, cilantro, cucumber, jalapeño.</p>
+                        <p class="price">$9.75</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Item 6: Sardine -->
+                    <article class="product-card reveal" data-category="banh-mi">
+                        <div class="img-container"> 
+                        <img src="images/banhmi-sardine.jpg" alt="Sardine Banh Mi (Ca Moi)">
+                        <div class="steam">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </div>
+                        </div>
+                        <h3>Sardine (Ca Moi)</h3>
+                        <p class="description">Sardines in rich tomato sauce, onions, mayo, pickled carrots & daikon, cilantro, cucumber, jalapeño.</p>
+                        <p class="price">$9.25</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Item 7: BBQ Beef -->
+                    <article class="product-card reveal" data-category="banh-mi">
+                        <div class="img-container"> 
+                        <img src="images/banhmi-bbq-beef.jpg" alt="BBQ Beef Banh Mi (Bo Nuong)">
+                        <div class="steam">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </div>
+                        </div>
+                        <h3>BBQ Beef (Bo Nuong)</h3>
+                        <p class="description">Tender slices of marinated BBQ beef, mayo, pickled carrots & daikon, cilantro, cucumber, jalapeño.</p>
+                        <p class="price">$11.00</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Item 8: Pate & Cha Lua -->
+                    <article class="product-card reveal" data-category="banh-mi">
+                        <div class="img-container"> 
+                        <img src="images/banhmi-pate-cha.jpg" alt="Pate & Cha Lua Banh Mi">
+                        <div class="steam">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </div>
+                        </div>
+                        <h3>Pâté & Pork Roll (Pâté Chả Lụa)</h3>
+                        <p class="description">Rich house-made pâté spread with slices of Vietnamese pork roll (Chả Lụa), mayo, pickled veggies, cilantro, cucumber, jalapeño.</p>
+                        <p class="price">$9.50</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Item 9: Shredded Chicken -->
+                    <article class="product-card reveal" data-category="banh-mi">
+                        <div class="img-container"> 
+                        <img src="images/banhmi-shredded-chicken.jpg" alt="Shredded Chicken Banh Mi (Ga Xe)">
+                        <div class="steam">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </div>
+                        </div>
+                        <h3>Shredded Chicken (Ga Xe)</h3>
+                        <p class="description">Flavorful pulled chicken seasoned Vietnamese style, mayo, pickled carrots & daikon, cilantro, cucumber, jalapeño.</p>
+                        <p class="price">$9.75</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Item 10: Egg Omelette -->
+                    <article class="product-card reveal" data-category="banh-mi">
+                        <div class="img-container"> 
+                        <img src="images/banhmi-egg-omelette.jpg" alt="Egg Omelette Banh Mi (Trung Chien)">
+                        <div class="steam">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </div>
+                        </div>
+                        <h3>Egg Omelette (Trứng Chiên)</h3>
+                        <p class="description">Simple yet delicious fried egg omelette, soy sauce, mayo, pickled carrots & daikon, cilantro, cucumber, jalapeño.</p>
+                        <p class="price">$8.50</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                </div> <!-- /.menu-grid -->
+            </div> <!-- /.container -->
+
+            <div class="wave-divider">
+  <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+    <path d="M0,64 C360,120 1080,0 1440,64 L1440,120 L0,120 Z"></path>
+  </svg>
+</div>
+        </section> <!-- /#banh-mi-menu -->
+
+        <!-- Drinks Menu Section -->
+        <section id="drinks-menu" class="menu-section menu-section-alt">
+            <div class="container">
+                <h2 class="title-animate">Refreshing Drinks</h2>
+                <div class="menu-grid">
+                     <!-- Drink 1: Vietnamese Coffee -->
+                    <article class="product-card reveal-right" data-category="drinks">
+                        <div class="img-container"> 
+                        <img src="images/drink-vietnamese-coffee.jpg" alt="Vietnamese Iced Coffee">
+                        </div>
+                        <h3>Vietnamese Iced Coffee (Cà Phê Sữa Đá)</h3>
+                        <p class="description">Strong Robusta coffee drip-brewed over sweetened condensed milk, served iced. Bold & sweet.</p>
+                        <p class="price">$5.00</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Drink 2: Thai Iced Tea -->
+                    <article class="product-card reveal-right" data-category="drinks">
+                        <div class="img-container"> 
+                        <img src="images/drink-thai-iced-tea.jpg" alt="Thai Iced Tea">
+                        </div>
+                        <h3>Thai Iced Tea (Trà Thái)</h3>
+                        <p class="description">Creamy, vibrant orange tea brewed with spices, sweetened, and topped with evaporated milk.</p>
+                        <p class="price">$4.75</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Drink 3: Fresh Limeade -->
+                    <article class="product-card reveal-right" data-category="drinks">
+                        <div class="img-container"> 
+                        <img src="images/drink-fresh-limeade.jpg" alt="Fresh Limeade">
+                        </div>
+                        <h3>Fresh Limeade (Nước Chanh Tươi)</h3>
+                        <p class="description">Classic thirst quencher made with freshly squeezed lime juice, sugar, and water. Tart & sweet.</p>
+                        <p class="price">$4.00</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Drink 4: Salty Plum Soda -->
+                    <article class="product-card reveal-right" data-category="drinks">
+                        <div class="img-container"> 
+                        <img src="images/drink-salty-plum-soda.jpg" alt="Salty Plum Soda">
+                        </div>
+                        <h3>Salty Plum Soda (Soda Xí Muội)</h3>
+                        <p class="description">A unique Vietnamese favorite! Preserved salty plum mixed with sugar and sparkling soda water.</p>
+                        <p class="price">$4.50</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Drink 5: Coconut Juice -->
+                    <article class="product-card reveal-right" data-category="drinks">
+                        <div class="img-container"> 
+                        <img src="images/drink-coconut-juice.jpg" alt="Fresh Coconut Juice">
+                        </div>
+                        <h3>Fresh Coconut Juice (Nước Dừa Tươi)</h3>
+                        <p class="description">Pure, refreshing juice straight from a young coconut. Served chilled, possibly with pulp.</p>
+                        <p class="price">$5.50</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Drink 6: Classic Milk Tea Boba -->
+                     <article class="product-card reveal-right" data-category="drinks">
+                        <div class="img-container"> 
+                        <img src="images/drink-bubble-tea.jpg" alt="Classic Milk Tea Boba">
+                        </div>
+                        <h3>Classic Milk Tea Boba</h3>
+                        <p class="description">Creamy black milk tea served with chewy tapioca pearls (boba). A popular standard!</p>
+                        <p class="price">$5.75</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Drink 7: Taro Milk Tea Boba -->
+                    <article class="product-card reveal-right" data-category="drinks">
+                        <div class="img-container"> 
+                        <img src="images/drink-taro-boba.jpg" alt="Taro Milk Tea Boba">
+                        </div>
+                        <h3>Taro Milk Tea Boba</h3>
+                        <p class="description">Sweet, nutty, and purple! Taro flavored milk tea with chewy tapioca pearls (boba).</p>
+                        <p class="price">$5.75</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Drink 8: Mango Smoothie -->
+                     <article class="product-card reveal-right" data-category="drinks">
+                        <div class="img-container"> 
+                        <img src="images/drink-mango-smoothie.jpg" alt="Mango Smoothie">
+                        </div>
+                        <h3>Mango Smoothie</h3>
+                        <p class="description">Thick, sweet, and tropical smoothie blended with real mango chunks and a creamy base.</p>
+                        <p class="price">$6.00</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Drink 9: Avocado Smoothie -->
+                    <article class="product-card reveal-right" data-category="drinks">
+                        <div class="img-container"> 
+                        <img src="images/drink-avocado-smoothie.jpg" alt="Avocado Smoothie">
+                        </div>
+                        <h3>Avocado Smoothie (Sinh Tố Bơ)</h3>
+                        <p class="description">A surprisingly rich & creamy Vietnamese classic. Blended avocado, condensed milk, and ice.</p>
+                        <p class="price">$6.50</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                    <!-- Drink 10: Canned Soda -->
+                     <article class="product-card reveal-right" data-category="drinks">
+                        <div class="img-container"> 
+                        <img src="images/drink-canned-soda.jpg" alt="Canned Soda">
+                        </div>
+                        <h3>Canned Soda</h3>
+                        <p class="description">Choose from our selection: Coke, Diet Coke, Sprite, Ginger Ale, Orange Soda.</p>
+                        <p class="price">$2.50</p>
+                        <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+                    </article>
+                </div> <!-- /.menu-grid -->
+            </div> <!-- /.container -->
+        </section> <!-- /#drinks-menu -->
+
+    <!-- About Section -->
+        <section id="about" class="about-section reveal-right">
+            <div class="container">
+            <h2>Our Story: Passion on a Baguette</h2>
+            <div class="about-content">
+                <p>Nguyen Banh Mi started with a simple dream: to share the authentic flavors of Vietnamese street food we grew up loving. We bake our baguettes fresh daily for that perfect crispy crust and soft interior. Our ingredients are carefully sourced, our pâté is homemade, and our meats are marinated with traditional family recipes. It's more than just a sandwich; it's a taste of home, crafted with passion and served with a smile.</p>
+            </div>
+        </div>
+    </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section menu-section-alt"><!-- Alternate background -->
+            <div class="container">
+                <h2 class="title-animate">Our Locations</h2>
+                <p>Stop by our shop for order or find us online for delivery!</p>
+                <div class="location-details">
+                    <div class="info">
+                        <p><i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> 847 Greene St, Coquitlam, B.C</p>
+                        <p><i class="fas fa-phone"></i> <strong>Phone:</strong> (236) BANH-MI (236-268-9272)</p>
+                        <p><i class="fas fa-clock"></i> <strong>Hours:</strong> Tues-Thurs: 10:00 AM - 8:00 PM | Sat-Sun: 11:00 AM - 6:00 PM</p>
+                        <div id="store-status" class="status-indicator">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Checking...</span>
+                        </div>
+                    </div>
+                    <!-- Placeholder for a map - you could embed a Google Map iframe here -->
+                    <div class="map-placeholder">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.8828533546727!2d-122.80147402354437!3d49.22021097138102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548678b8a7c10857%3A0xf9486e7a23162f75!2s847%20Greene%20St%2C%20Coquitlam%2C%20BC%20V3J%207A1!5e0!3m2!1sen!2sca!4v1700450000000!5m2!1sen!2sca"
+                        width="600"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Terms of Service</a> |
+                <a href="#">Careers</a> |
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="social-media">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Yelp"><i class="fab fa-yelp"></i></a>
+            </div>
+            <p>© 2026 Nguyen Banh Mi. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <div id="customizer-modal" class="modal">
+    <div class="modal-content">
+        <h3 id="modal-item-name">Customize Your Banh Mi</h3>
+        <div class="custom-options">
+            <label><input type="checkbox" name="opt" value="No Cilantro"> No Cilantro</label>
+            <label><input type="checkbox" name="opt" value="No Jalapeños"> No Jalapeños</label>
+            <label><input type="checkbox" name="opt" value="No Onions"> No Onions</label>
+            <label><input type="checkbox" name="opt" value="Extra Pate" data-price="1.50"> Extra Pâté (+$1.50)</label>
+        </div>
+        <div class="modal-actions">
+            <button class="btn btn-secondary" id="cancel-custom">Cancel</button>
+            <button class="btn btn-primary" id="confirm-add">Confirm & Add</button>
+        </div>
+    </div>
+</div>
+
+    <div id="backToTop" aria-label="Back to top" role="button">
+    <i class="fas fa-arrow-up"></i>
+</div>
+<!-- CART SIDEBAR (Crucial for the script to work) -->
+<div id="cart-sidebar" class="cart-sidebar">
+    <div class="cart-header">
+        <h3>Your Order</h3>
+        <button class="close-cart">&times;</button>
+    </div>
+    <div id="cart-items-list">
+        <!-- Items will appear here -->
+    </div>
+    <div class="cart-footer">
+        <div style="display:flex; justify-content:space-between; font-weight:bold; margin-bottom:15px;">
+            <span>Total:</span>
+            <span id="cart-total">$0.00</span>
+        </div>
+        <button class="btn btn-primary" style="width:100%">Checkout</button>
+    </div>
+</div>
+<div id="cart-overlay" class="cart-overlay"></div>
+<script src="script.js"></script>
+</body>
+</html>
